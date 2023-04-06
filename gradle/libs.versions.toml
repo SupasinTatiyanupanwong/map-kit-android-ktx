@@ -1,0 +1,13 @@
+[versions]
+com-android-library = "7.4.2"
+org-jetbrains-kotlin-android = "1.7.20"
+maps-core = "2.1.0"
+
+[libraries]
+maps-core = { group = "dev.supasintatiyanupanwong.libraries.android.kits.maps", name = "maps-core", version.ref = "maps-core" }
+
+[plugins]
+com-android-library = { id = "com.android.library", version.ref = "com-android-library" }
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "org-jetbrains-kotlin-android" }
+
+[bundles]
