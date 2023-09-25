@@ -22,5 +22,5 @@ android {
 }
 
 dependencies {
-    implementation(libs.maps.core)
+    api(libs.maps.core)
 }
