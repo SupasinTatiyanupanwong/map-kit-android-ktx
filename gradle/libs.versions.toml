@@ -2,9 +2,11 @@
 com-android-library = "7.4.2"
 org-jetbrains-kotlin-android = "1.7.20"
 maps-core = "2.1.0"
+kotlinx-coroutines-android = "1.6.4"
 
 [libraries]
 maps-core = { group = "dev.supasintatiyanupanwong.libraries.android.kits.maps", name = "maps-core", version.ref = "maps-core" }
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "kotlinx-coroutines-android" }
 
 [plugins]
 com-android-library = { id = "com.android.library", version.ref = "com-android-library" }

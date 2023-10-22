@@ -23,4 +23,5 @@ android {
 
 dependencies {
     api(libs.maps.core)
+    api(libs.kotlinx.coroutines.android)
 }
